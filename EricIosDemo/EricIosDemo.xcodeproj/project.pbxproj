@@ -48,6 +48,7 @@
 		5B7916071924B7060096AF44 /* EricIosDemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "EricIosDemoTests-Info.plist"; sourceTree = "<group>"; };
 		5B7916091924B7060096AF44 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		5B79160B1924B7060096AF44 /* EricIosDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EricIosDemoTests.m; sourceTree = "<group>"; };
+		5B7916151924BAED0096AF44 /* TodoList.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TodoList.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +108,7 @@
 		5B7915EC1924B7060096AF44 /* EricIosDemo */ = {
 			isa = PBXGroup;
 			children = (
+				5B7916151924BAED0096AF44 /* TodoList.h */,
 				5B7915F51924B7060096AF44 /* AppDelegate.h */,
 				5B7915F61924B7060096AF44 /* AppDelegate.m */,
 				5B7915F81924B7060096AF44 /* Images.xcassets */,
