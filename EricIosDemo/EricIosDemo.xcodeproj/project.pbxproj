@@ -1,0 +1,454 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5B7915E71924B7060096AF44 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B7915E61924B7060096AF44 /* Foundation.framework */; };
+		5B7915E91924B7060096AF44 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B7915E81924B7060096AF44 /* CoreGraphics.framework */; };
+		5B7915EB1924B7060096AF44 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B7915EA1924B7060096AF44 /* UIKit.framework */; };
+		5B7915F11924B7060096AF44 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5B7915EF1924B7060096AF44 /* InfoPlist.strings */; };
+		5B7915F31924B7060096AF44 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B7915F21924B7060096AF44 /* main.m */; };
+		5B7915F71924B7060096AF44 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B7915F61924B7060096AF44 /* AppDelegate.m */; };
+		5B7915F91924B7060096AF44 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B7915F81924B7060096AF44 /* Images.xcassets */; };
+		5B7916001924B7060096AF44 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B7915FF1924B7060096AF44 /* XCTest.framework */; };
+		5B7916011924B7060096AF44 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B7915E61924B7060096AF44 /* Foundation.framework */; };
+		5B7916021924B7060096AF44 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B7915EA1924B7060096AF44 /* UIKit.framework */; };
+		5B79160A1924B7060096AF44 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5B7916081924B7060096AF44 /* InfoPlist.strings */; };
+		5B79160C1924B7060096AF44 /* EricIosDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B79160B1924B7060096AF44 /* EricIosDemoTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5B7916031924B7060096AF44 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5B7915DB1924B7060096AF44 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5B7915E21924B7060096AF44;
+			remoteInfo = EricIosDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5B7915E31924B7060096AF44 /* EricIosDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EricIosDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B7915E61924B7060096AF44 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		5B7915E81924B7060096AF44 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		5B7915EA1924B7060096AF44 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		5B7915EE1924B7060096AF44 /* EricIosDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "EricIosDemo-Info.plist"; sourceTree = "<group>"; };
+		5B7915F01924B7060096AF44 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5B7915F21924B7060096AF44 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5B7915F41924B7060096AF44 /* EricIosDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "EricIosDemo-Prefix.pch"; sourceTree = "<group>"; };
+		5B7915F51924B7060096AF44 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5B7915F61924B7060096AF44 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5B7915F81924B7060096AF44 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		5B7915FE1924B7060096AF44 /* EricIosDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EricIosDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B7915FF1924B7060096AF44 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		5B7916071924B7060096AF44 /* EricIosDemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "EricIosDemoTests-Info.plist"; sourceTree = "<group>"; };
+		5B7916091924B7060096AF44 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5B79160B1924B7060096AF44 /* EricIosDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EricIosDemoTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5B7915E01924B7060096AF44 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B7915E91924B7060096AF44 /* CoreGraphics.framework in Frameworks */,
+				5B7915EB1924B7060096AF44 /* UIKit.framework in Frameworks */,
+				5B7915E71924B7060096AF44 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B7915FB1924B7060096AF44 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B7916001924B7060096AF44 /* XCTest.framework in Frameworks */,
+				5B7916021924B7060096AF44 /* UIKit.framework in Frameworks */,
+				5B7916011924B7060096AF44 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5B7915DA1924B7060096AF44 = {
+			isa = PBXGroup;
+			children = (
+				5B7915EC1924B7060096AF44 /* EricIosDemo */,
+				5B7916051924B7060096AF44 /* EricIosDemoTests */,
+				5B7915E51924B7060096AF44 /* Frameworks */,
+				5B7915E41924B7060096AF44 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5B7915E41924B7060096AF44 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5B7915E31924B7060096AF44 /* EricIosDemo.app */,
+				5B7915FE1924B7060096AF44 /* EricIosDemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5B7915E51924B7060096AF44 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5B7915E61924B7060096AF44 /* Foundation.framework */,
+				5B7915E81924B7060096AF44 /* CoreGraphics.framework */,
+				5B7915EA1924B7060096AF44 /* UIKit.framework */,
+				5B7915FF1924B7060096AF44 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5B7915EC1924B7060096AF44 /* EricIosDemo */ = {
+			isa = PBXGroup;
+			children = (
+				5B7915F51924B7060096AF44 /* AppDelegate.h */,
+				5B7915F61924B7060096AF44 /* AppDelegate.m */,
+				5B7915F81924B7060096AF44 /* Images.xcassets */,
+				5B7915ED1924B7060096AF44 /* Supporting Files */,
+			);
+			path = EricIosDemo;
+			sourceTree = "<group>";
+		};
+		5B7915ED1924B7060096AF44 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5B7915EE1924B7060096AF44 /* EricIosDemo-Info.plist */,
+				5B7915EF1924B7060096AF44 /* InfoPlist.strings */,
+				5B7915F21924B7060096AF44 /* main.m */,
+				5B7915F41924B7060096AF44 /* EricIosDemo-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5B7916051924B7060096AF44 /* EricIosDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				5B79160B1924B7060096AF44 /* EricIosDemoTests.m */,
+				5B7916061924B7060096AF44 /* Supporting Files */,
+			);
+			path = EricIosDemoTests;
+			sourceTree = "<group>";
+		};
+		5B7916061924B7060096AF44 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5B7916071924B7060096AF44 /* EricIosDemoTests-Info.plist */,
+				5B7916081924B7060096AF44 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5B7915E21924B7060096AF44 /* EricIosDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5B79160F1924B7060096AF44 /* Build configuration list for PBXNativeTarget "EricIosDemo" */;
+			buildPhases = (
+				5B7915DF1924B7060096AF44 /* Sources */,
+				5B7915E01924B7060096AF44 /* Frameworks */,
+				5B7915E11924B7060096AF44 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EricIosDemo;
+			productName = EricIosDemo;
+			productReference = 5B7915E31924B7060096AF44 /* EricIosDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5B7915FD1924B7060096AF44 /* EricIosDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5B7916121924B7060096AF44 /* Build configuration list for PBXNativeTarget "EricIosDemoTests" */;
+			buildPhases = (
+				5B7915FA1924B7060096AF44 /* Sources */,
+				5B7915FB1924B7060096AF44 /* Frameworks */,
+				5B7915FC1924B7060096AF44 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5B7916041924B7060096AF44 /* PBXTargetDependency */,
+			);
+			name = EricIosDemoTests;
+			productName = EricIosDemoTests;
+			productReference = 5B7915FE1924B7060096AF44 /* EricIosDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5B7915DB1924B7060096AF44 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = Eric;
+				TargetAttributes = {
+					5B7915FD1924B7060096AF44 = {
+						TestTargetID = 5B7915E21924B7060096AF44;
+					};
+				};
+			};
+			buildConfigurationList = 5B7915DE1924B7060096AF44 /* Build configuration list for PBXProject "EricIosDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 5B7915DA1924B7060096AF44;
+			productRefGroup = 5B7915E41924B7060096AF44 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5B7915E21924B7060096AF44 /* EricIosDemo */,
+				5B7915FD1924B7060096AF44 /* EricIosDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5B7915E11924B7060096AF44 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B7915F11924B7060096AF44 /* InfoPlist.strings in Resources */,
+				5B7915F91924B7060096AF44 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B7915FC1924B7060096AF44 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B79160A1924B7060096AF44 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5B7915DF1924B7060096AF44 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B7915F71924B7060096AF44 /* AppDelegate.m in Sources */,
+				5B7915F31924B7060096AF44 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B7915FA1924B7060096AF44 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B79160C1924B7060096AF44 /* EricIosDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5B7916041924B7060096AF44 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5B7915E21924B7060096AF44 /* EricIosDemo */;
+			targetProxy = 5B7916031924B7060096AF44 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5B7915EF1924B7060096AF44 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5B7915F01924B7060096AF44 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		5B7916081924B7060096AF44 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5B7916091924B7060096AF44 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5B79160D1924B7060096AF44 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5B79160E1924B7060096AF44 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5B7916101924B7060096AF44 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EricIosDemo/EricIosDemo-Prefix.pch";
+				INFOPLIST_FILE = "EricIosDemo/EricIosDemo-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		5B7916111924B7060096AF44 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EricIosDemo/EricIosDemo-Prefix.pch";
+				INFOPLIST_FILE = "EricIosDemo/EricIosDemo-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		5B7916131924B7060096AF44 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/EricIosDemo.app/EricIosDemo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EricIosDemo/EricIosDemo-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "EricIosDemoTests/EricIosDemoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		5B7916141924B7060096AF44 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/EricIosDemo.app/EricIosDemo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EricIosDemo/EricIosDemo-Prefix.pch";
+				INFOPLIST_FILE = "EricIosDemoTests/EricIosDemoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5B7915DE1924B7060096AF44 /* Build configuration list for PBXProject "EricIosDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B79160D1924B7060096AF44 /* Debug */,
+				5B79160E1924B7060096AF44 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5B79160F1924B7060096AF44 /* Build configuration list for PBXNativeTarget "EricIosDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B7916101924B7060096AF44 /* Debug */,
+				5B7916111924B7060096AF44 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5B7916121924B7060096AF44 /* Build configuration list for PBXNativeTarget "EricIosDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B7916131924B7060096AF44 /* Debug */,
+				5B7916141924B7060096AF44 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5B7915DB1924B7060096AF44 /* Project object */;
+}
