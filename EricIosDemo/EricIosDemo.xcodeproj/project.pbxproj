@@ -19,6 +19,7 @@
 		5B7916021924B7060096AF44 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B7915EA1924B7060096AF44 /* UIKit.framework */; };
 		5B79160A1924B7060096AF44 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5B7916081924B7060096AF44 /* InfoPlist.strings */; };
 		5B79160C1924B7060096AF44 /* EricIosDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B79160B1924B7060096AF44 /* EricIosDemoTests.m */; };
+		5B79161D1924BE200096AF44 /* CertificateDescVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B79161C1924BE200096AF44 /* CertificateDescVC.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,10 @@
 		5B7916091924B7060096AF44 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		5B79160B1924B7060096AF44 /* EricIosDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EricIosDemoTests.m; sourceTree = "<group>"; };
 		5B7916151924BAED0096AF44 /* TodoList.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TodoList.h; sourceTree = "<group>"; };
+		5B79161B1924BE200096AF44 /* CertificateDescVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CertificateDescVC.h; sourceTree = "<group>"; };
+		5B79161C1924BE200096AF44 /* CertificateDescVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CertificateDescVC.m; sourceTree = "<group>"; };
+		5B79161E1924BF750096AF44 /* Constans.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Constans.h; sourceTree = "<group>"; };
+		5B7916201924BFBD0096AF44 /* DescContent.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DescContent.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,8 +114,11 @@
 			isa = PBXGroup;
 			children = (
 				5B7916151924BAED0096AF44 /* TodoList.h */,
+				5B79161E1924BF750096AF44 /* Constans.h */,
 				5B7915F51924B7060096AF44 /* AppDelegate.h */,
 				5B7915F61924B7060096AF44 /* AppDelegate.m */,
+				5B79161F1924BF9E0096AF44 /* Constans */,
+				5B7916161924BD9D0096AF44 /* MVC */,
 				5B7915F81924B7060096AF44 /* Images.xcassets */,
 				5B7915ED1924B7060096AF44 /* Supporting Files */,
 			);
@@ -144,6 +152,55 @@
 				5B7916081924B7060096AF44 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5B7916161924BD9D0096AF44 /* MVC */ = {
+			isa = PBXGroup;
+			children = (
+				5B7916171924BD9D0096AF44 /* APNS */,
+			);
+			path = MVC;
+			sourceTree = "<group>";
+		};
+		5B7916171924BD9D0096AF44 /* APNS */ = {
+			isa = PBXGroup;
+			children = (
+				5B7916181924BD9D0096AF44 /* Controller */,
+				5B7916191924BD9D0096AF44 /* Model */,
+				5B79161A1924BD9D0096AF44 /* View */,
+			);
+			path = APNS;
+			sourceTree = "<group>";
+		};
+		5B7916181924BD9D0096AF44 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				5B79161B1924BE200096AF44 /* CertificateDescVC.h */,
+				5B79161C1924BE200096AF44 /* CertificateDescVC.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		5B7916191924BD9D0096AF44 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		5B79161A1924BD9D0096AF44 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		5B79161F1924BF9E0096AF44 /* Constans */ = {
+			isa = PBXGroup;
+			children = (
+				5B7916201924BFBD0096AF44 /* DescContent.h */,
+			);
+			path = Constans;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -242,6 +299,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5B7915F71924B7060096AF44 /* AppDelegate.m in Sources */,
+				5B79161D1924BE200096AF44 /* CertificateDescVC.m in Sources */,
 				5B7915F31924B7060096AF44 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -441,6 +499,7 @@
 				5B7916111924B7060096AF44 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5B7916121924B7060096AF44 /* Build configuration list for PBXNativeTarget "EricIosDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -449,6 +508,7 @@
 				5B7916141924B7060096AF44 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
