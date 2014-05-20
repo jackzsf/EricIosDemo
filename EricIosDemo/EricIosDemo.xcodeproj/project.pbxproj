@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5B3FB604192B359B0027B8A8 /* GXCIA.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B3FB603192B359B0027B8A8 /* GXCIA.m */; };
+		5B3FB607192B3A4F0027B8A8 /* GXTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B3FB606192B3A4F0027B8A8 /* GXTools.m */; };
+		5B3FB60C192B3ACA0027B8A8 /* OpenUDID.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B3FB60B192B3ACA0027B8A8 /* OpenUDID.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		5B3FB610192B3B7B0027B8A8 /* NSStringEx.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B3FB60F192B3B7B0027B8A8 /* NSStringEx.m */; };
+		5B3FB614192B3C350027B8A8 /* DeviceDetection.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B3FB613192B3C350027B8A8 /* DeviceDetection.m */; };
 		5B7915E71924B7060096AF44 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B7915E61924B7060096AF44 /* Foundation.framework */; };
 		5B7915E91924B7060096AF44 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B7915E81924B7060096AF44 /* CoreGraphics.framework */; };
 		5B7915EB1924B7060096AF44 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B7915EA1924B7060096AF44 /* UIKit.framework */; };
@@ -33,6 +38,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5B3FB602192B359B0027B8A8 /* GXCIA.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GXCIA.h; sourceTree = "<group>"; };
+		5B3FB603192B359B0027B8A8 /* GXCIA.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GXCIA.m; sourceTree = "<group>"; };
+		5B3FB605192B3A4F0027B8A8 /* GXTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GXTools.h; sourceTree = "<group>"; };
+		5B3FB606192B3A4F0027B8A8 /* GXTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GXTools.m; sourceTree = "<group>"; };
+		5B3FB60A192B3ACA0027B8A8 /* OpenUDID.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OpenUDID.h; sourceTree = "<group>"; };
+		5B3FB60B192B3ACA0027B8A8 /* OpenUDID.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OpenUDID.m; sourceTree = "<group>"; };
+		5B3FB60E192B3B7B0027B8A8 /* NSStringEx.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSStringEx.h; sourceTree = "<group>"; };
+		5B3FB60F192B3B7B0027B8A8 /* NSStringEx.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSStringEx.m; sourceTree = "<group>"; };
+		5B3FB612192B3C350027B8A8 /* DeviceDetection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeviceDetection.h; sourceTree = "<group>"; };
+		5B3FB613192B3C350027B8A8 /* DeviceDetection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DeviceDetection.m; sourceTree = "<group>"; };
+		5B3FB615192B3C6B0027B8A8 /* CommonConstans.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonConstans.h; sourceTree = "<group>"; };
 		5B7915E31924B7060096AF44 /* EricIosDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EricIosDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B7915E61924B7060096AF44 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		5B7915E81924B7060096AF44 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -80,6 +96,64 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5B3FB600192B357A0027B8A8 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				5B3FB60D192B3B7B0027B8A8 /* Category */,
+				5B3FB608192B3ACA0027B8A8 /* ThirdPartLibrary */,
+				5B3FB601192B357A0027B8A8 /* CommonMethod */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		5B3FB601192B357A0027B8A8 /* CommonMethod */ = {
+			isa = PBXGroup;
+			children = (
+				5B3FB615192B3C6B0027B8A8 /* CommonConstans.h */,
+				5B3FB602192B359B0027B8A8 /* GXCIA.h */,
+				5B3FB603192B359B0027B8A8 /* GXCIA.m */,
+				5B3FB605192B3A4F0027B8A8 /* GXTools.h */,
+				5B3FB606192B3A4F0027B8A8 /* GXTools.m */,
+			);
+			path = CommonMethod;
+			sourceTree = "<group>";
+		};
+		5B3FB608192B3ACA0027B8A8 /* ThirdPartLibrary */ = {
+			isa = PBXGroup;
+			children = (
+				5B3FB611192B3C350027B8A8 /* Device */,
+				5B3FB609192B3ACA0027B8A8 /* OpenUDID */,
+			);
+			path = ThirdPartLibrary;
+			sourceTree = "<group>";
+		};
+		5B3FB609192B3ACA0027B8A8 /* OpenUDID */ = {
+			isa = PBXGroup;
+			children = (
+				5B3FB60A192B3ACA0027B8A8 /* OpenUDID.h */,
+				5B3FB60B192B3ACA0027B8A8 /* OpenUDID.m */,
+			);
+			path = OpenUDID;
+			sourceTree = "<group>";
+		};
+		5B3FB60D192B3B7B0027B8A8 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				5B3FB60E192B3B7B0027B8A8 /* NSStringEx.h */,
+				5B3FB60F192B3B7B0027B8A8 /* NSStringEx.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		5B3FB611192B3C350027B8A8 /* Device */ = {
+			isa = PBXGroup;
+			children = (
+				5B3FB612192B3C350027B8A8 /* DeviceDetection.h */,
+				5B3FB613192B3C350027B8A8 /* DeviceDetection.m */,
+			);
+			path = Device;
+			sourceTree = "<group>";
+		};
 		5B7915DA1924B7060096AF44 = {
 			isa = PBXGroup;
 			children = (
@@ -118,6 +192,7 @@
 				5B7915F51924B7060096AF44 /* AppDelegate.h */,
 				5B7915F61924B7060096AF44 /* AppDelegate.m */,
 				5B79161F1924BF9E0096AF44 /* Constans */,
+				5B3FB600192B357A0027B8A8 /* Common */,
 				5B7916161924BD9D0096AF44 /* MVC */,
 				5B7915F81924B7060096AF44 /* Images.xcassets */,
 				5B7915ED1924B7060096AF44 /* Supporting Files */,
@@ -299,7 +374,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				5B7915F71924B7060096AF44 /* AppDelegate.m in Sources */,
+				5B3FB610192B3B7B0027B8A8 /* NSStringEx.m in Sources */,
+				5B3FB607192B3A4F0027B8A8 /* GXTools.m in Sources */,
+				5B3FB614192B3C350027B8A8 /* DeviceDetection.m in Sources */,
 				5B79161D1924BE200096AF44 /* CertificateDescVC.m in Sources */,
+				5B3FB60C192B3ACA0027B8A8 /* OpenUDID.m in Sources */,
+				5B3FB604192B359B0027B8A8 /* GXCIA.m in Sources */,
 				5B7915F31924B7060096AF44 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
