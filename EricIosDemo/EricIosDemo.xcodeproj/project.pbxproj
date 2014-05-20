@@ -12,6 +12,10 @@
 		5B3FB60C192B3ACA0027B8A8 /* OpenUDID.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B3FB60B192B3ACA0027B8A8 /* OpenUDID.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		5B3FB610192B3B7B0027B8A8 /* NSStringEx.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B3FB60F192B3B7B0027B8A8 /* NSStringEx.m */; };
 		5B3FB614192B3C350027B8A8 /* DeviceDetection.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B3FB613192B3C350027B8A8 /* DeviceDetection.m */; };
+		5B3FB618192B46840027B8A8 /* FunctionListVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B3FB617192B46840027B8A8 /* FunctionListVC.m */; };
+		5B3FB61A192B49780027B8A8 /* FuncListInfo.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5B3FB619192B49780027B8A8 /* FuncListInfo.plist */; };
+		5B3FB61D192B530B0027B8A8 /* FunctionModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B3FB61C192B530B0027B8A8 /* FunctionModel.m */; };
+		5B3FB620192B54EC0027B8A8 /* NSNumberEx.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B3FB61F192B54EC0027B8A8 /* NSNumberEx.m */; };
 		5B7915E71924B7060096AF44 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B7915E61924B7060096AF44 /* Foundation.framework */; };
 		5B7915E91924B7060096AF44 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B7915E81924B7060096AF44 /* CoreGraphics.framework */; };
 		5B7915EB1924B7060096AF44 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B7915EA1924B7060096AF44 /* UIKit.framework */; };
@@ -49,6 +53,13 @@
 		5B3FB612192B3C350027B8A8 /* DeviceDetection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeviceDetection.h; sourceTree = "<group>"; };
 		5B3FB613192B3C350027B8A8 /* DeviceDetection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DeviceDetection.m; sourceTree = "<group>"; };
 		5B3FB615192B3C6B0027B8A8 /* CommonConstans.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonConstans.h; sourceTree = "<group>"; };
+		5B3FB616192B46840027B8A8 /* FunctionListVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FunctionListVC.h; sourceTree = "<group>"; };
+		5B3FB617192B46840027B8A8 /* FunctionListVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FunctionListVC.m; sourceTree = "<group>"; };
+		5B3FB619192B49780027B8A8 /* FuncListInfo.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = FuncListInfo.plist; sourceTree = "<group>"; };
+		5B3FB61B192B530B0027B8A8 /* FunctionModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FunctionModel.h; sourceTree = "<group>"; };
+		5B3FB61C192B530B0027B8A8 /* FunctionModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FunctionModel.m; sourceTree = "<group>"; };
+		5B3FB61E192B54EC0027B8A8 /* NSNumberEx.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSNumberEx.h; sourceTree = "<group>"; };
+		5B3FB61F192B54EC0027B8A8 /* NSNumberEx.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSNumberEx.m; sourceTree = "<group>"; };
 		5B7915E31924B7060096AF44 /* EricIosDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EricIosDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B7915E61924B7060096AF44 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		5B7915E81924B7060096AF44 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -139,6 +150,8 @@
 		5B3FB60D192B3B7B0027B8A8 /* Category */ = {
 			isa = PBXGroup;
 			children = (
+				5B3FB61E192B54EC0027B8A8 /* NSNumberEx.h */,
+				5B3FB61F192B54EC0027B8A8 /* NSNumberEx.m */,
 				5B3FB60E192B3B7B0027B8A8 /* NSStringEx.h */,
 				5B3FB60F192B3B7B0027B8A8 /* NSStringEx.m */,
 			);
@@ -233,6 +246,11 @@
 			isa = PBXGroup;
 			children = (
 				5B7916171924BD9D0096AF44 /* APNS */,
+				5B3FB61B192B530B0027B8A8 /* FunctionModel.h */,
+				5B3FB61C192B530B0027B8A8 /* FunctionModel.m */,
+				5B3FB616192B46840027B8A8 /* FunctionListVC.h */,
+				5B3FB617192B46840027B8A8 /* FunctionListVC.m */,
+				5B3FB619192B49780027B8A8 /* FuncListInfo.plist */,
 			);
 			path = MVC;
 			sourceTree = "<group>";
@@ -353,6 +371,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5B3FB61A192B49780027B8A8 /* FuncListInfo.plist in Resources */,
 				5B7915F11924B7060096AF44 /* InfoPlist.strings in Resources */,
 				5B7915F91924B7060096AF44 /* Images.xcassets in Resources */,
 			);
@@ -376,7 +395,10 @@
 				5B7915F71924B7060096AF44 /* AppDelegate.m in Sources */,
 				5B3FB610192B3B7B0027B8A8 /* NSStringEx.m in Sources */,
 				5B3FB607192B3A4F0027B8A8 /* GXTools.m in Sources */,
+				5B3FB620192B54EC0027B8A8 /* NSNumberEx.m in Sources */,
+				5B3FB618192B46840027B8A8 /* FunctionListVC.m in Sources */,
 				5B3FB614192B3C350027B8A8 /* DeviceDetection.m in Sources */,
+				5B3FB61D192B530B0027B8A8 /* FunctionModel.m in Sources */,
 				5B79161D1924BE200096AF44 /* CertificateDescVC.m in Sources */,
 				5B3FB60C192B3ACA0027B8A8 /* OpenUDID.m in Sources */,
 				5B3FB604192B359B0027B8A8 /* GXCIA.m in Sources */,

@@ -16,11 +16,31 @@
  3.ASI
  4.queue
  5.GCD
- 6.block
- 7.multi thread
+ 6.Block
+ 7.Multi thread
  
  */
 
+#define StringSqlite    @"Sqlite"
+#define TagSqlite       0
+
+#define CoreDataSqlite    @"CoreData"
+#define TagCoreData       1
+
+#define StringASI    @"ASI"
+#define TagASI       2
+
+#define StringQueue    @"Queue"
+#define TagQueue       3
+
+#define StringGCD    @"GCD"
+#define TagGCD       4
+
+#define StringBlock    @"Block"
+#define TagBlock       5
+
+#define StringMultiThread    @"MultiThread"
+#define TagMultiThread      6
 
 
 #endif

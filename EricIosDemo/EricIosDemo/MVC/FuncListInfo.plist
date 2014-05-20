@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>name</key>
+		<string>Sqlite</string>
+		<key>tag</key>
+		<integer>0</integer>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>CoreData</string>
+		<key>tag</key>
+		<integer>1</integer>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>ASI</string>
+		<key>tag</key>
+		<integer>2</integer>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Queue</string>
+		<key>tag</key>
+		<integer>3</integer>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>GCD</string>
+		<key>tag</key>
+		<integer>4</integer>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Block</string>
+		<key>tag</key>
+		<integer>5</integer>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>MultiThread</string>
+		<key>tag</key>
+		<integer>6</integer>
+	</dict>
+</array>
+</plist>

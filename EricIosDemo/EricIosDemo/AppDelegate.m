@@ -9,6 +9,7 @@
 #import "AppDelegate.h"
 #import "GXCIA.h"
 #import "CommonConstans.h"
+#import "FunctionListVC.h"
 
 AppDelegate *app = nil;
 
@@ -40,6 +41,10 @@ AppDelegate *app = nil;
     }
     
     [self getPushWhenAppClosed:launchOptions];
+    
+    FunctionListVC *funListVC  = [[FunctionListVC alloc] init];
+    UINavigationController *funNav = [[UINavigationController alloc] initWithRootViewController:funListVC];
+    self.window.rootViewController = funNav;
     
     return YES;
 }
